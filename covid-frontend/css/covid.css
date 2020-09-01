@@ -104,7 +104,7 @@ body {
     border: 1px solid #2664b4;
     margin-right: 5em;
     margin-bottom: 2em;
-    height: 15em;
+    height: 17em;
 }
 
 .tips p {
@@ -112,10 +112,12 @@ body {
     color: #080808;
     border: .1px solid #2970ce;
     background-color: #2664b4;
-    font-weight: 800;
+    font-weight: 900;
     width: 12em;
     margin-left: 1em;
     border-radius: 5px;
+    height: 2em;
+    padding-top: 0.5em;
 }
 
 td, th {

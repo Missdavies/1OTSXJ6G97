@@ -10,7 +10,7 @@ url = 'https://coronavirus-19-api.herokuapp.com'
 @app.route('/cases')
 def get_all_cases():
     cases = requests.get(url + '/countries').json()
-    return jsonify(cases)
+    #return jsonify(cases)
 
 @app.route('/cases/<country>')
 def get_cases_by_country(country):
